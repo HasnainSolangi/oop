@@ -1,4 +1,5 @@
 # Library Management System
+`npx cli-oop-pkg`
 
 Welcome to the Library Management System project! This is a simple command-line application designed to manage a collection of books using Object-Oriented Programming (OOP) principles in TypeScript.
 
@@ -33,21 +34,16 @@ Exits the application.
 To run this project, you need to have [Node.js](https://nodejs.org/) installed on your system. Then, follow these steps:
 
 1. Clone this repository:
-    ```sh
-    git clone https://github.com/your-username/library-management-system.git
-    ```
+   
 2. Navigate to the project directory:
-    ```sh
-    cd library-management-system
-    ```
+  
 3. Install the dependencies:
-    ```sh
-    npm install
+  
+4. Run the application using `npx`:
     ```
-4. Run the application:
-    ```sh
-    npm start
+    npx cli-oop-pkg
     ```
+
 
 ## Usage
 
@@ -65,14 +61,14 @@ Once the application is running, you will be prompted with a menu where you can 
 1. Select `Add Book` from the menu.
 2. Enter the book title and author when prompted.
 
-    ```plaintext
+    ```
     ? What would you like to do? (Use arrow keys)
     ❯ Add Book 
       Find Book 
       List Books 
       Exit 
-    ? Enter the book title: The Great Gatsby
-    ? Enter the book author: F. Scott Fitzgerald
+    ? Enter the book title: Al-Bidaya wal-Nihaya
+    ? Enter the book author: Ibn Kathir
     ```
 
 #### Finding a Book
@@ -80,45 +76,45 @@ Once the application is running, you will be prompted with a menu where you can 
 1. Select `Find Book` from the menu.
 2. Enter the book title or author when prompted.
 
-    ```plaintext
+    ```
     ? What would you like to do? (Use arrow keys)
       Add Book 
     ❯ Find Book 
       List Books 
       Exit 
-    ? Enter the book title or author to search: Gatsby
+    ? Enter the book title or author to search: Al-Bidaya
     ```
 
     Output:
 
-    ```plaintext
+    ```
     Books found:
-    The Great Gatsby by F. Scott Fitzgerald
+    Al-Bidaya wal-Nihaya by Ibn Kathir
     ```
 
-3. You can also search by a partial title or author name. For example, entering "Fitz" will match "F. Scott Fitzgerald".
+3. You can also search by a partial title or author name. For example, entering "Kathir" will match "Ibn Kathir".
 
-    ```plaintext
+    ```
     ? What would you like to do? (Use arrow keys)
       Add Book 
     ❯ Find Book 
       List Books 
       Exit 
-    ? Enter the book title or author to search: Fitz
+    ? Enter the book title or author to search: kathir
     ```
 
     Output:
 
-    ```plaintext
+    ```
     Books found:
-    The Great Gatsby by F. Scott Fitzgerald
+    Al-Bidaya wal-Nihaya by Ibn Kathir
     ```
 
 #### Listing Books
 
 1. Select `List Books` from the menu.
 
-    ```plaintext
+    ```
     ? What would you like to do? (Use arrow keys)
       Add Book 
       Find Book 
@@ -128,9 +124,9 @@ Once the application is running, you will be prompted with a menu where you can 
 
     Output:
 
-    ```plaintext
+    ```
     Available Books:
-    The Great Gatsby by F. Scott Fitzgerald
+    Al-Bidaya wal-Nihaya by Ibn Kathir
     ```
 
 ## Contributing
@@ -140,3 +136,16 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+
+#### Name:- Hasnain Ahmed 
+#### Roll No:- 00310538
+#### Quarter:- 1
+#### Batch:- 1
+#### City:- Karachi
+#### Centre:- Sindh Governor House Karachi
+#### Campus:- Main
+#### Days/Time:- Wednesday 09:00 am - 12:00 pm
+
+[LinkedIn - Hasnain Ahmed](https://www.linkedin.com/in/hasnainahmed90s/)<p>
+[Governor Sindh Initiative for GenAI, Web3, and Metaverse](https://www.linkedin.com/company/governor-sindh-initiative/mycompany/)
